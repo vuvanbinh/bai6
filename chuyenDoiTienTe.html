@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyedoitiente</title>
+</head>
+
+<style>
+  .ja {
+    width: 150px;
+    margin-right: 10px;
+  }
+.jax {
+  background-color: powderblue;
+  width: 80px;
+
+}
+.a {
+  /*width: 200px;*/
+  padding-left: 50px;
+  margin-right: 65px;
+}
+
+</style>
+
+<body>
+<h1>Chuyển đổi tiền tệ.</h1>
+<form action="">
+  <label class="a">Amount</label>
+  <label class="a">From</label>
+  <label class="a">To</label>
+  </br>
+  <input class="ja" type="number" placeholder="Nhập số" id="nhapso">
+  <select class="ja" id="tien1">
+    <option value="1"> USD </option>
+    <option value="23000"> VND </option>
+  </select>
+  <select class="ja" id="tien2">
+    <option value="1">USD</option>
+    <option value="23000">VND</option>
+  </select>
+<button class="jax" onclick="demo()">Convert</button>
+</form>
+<script src="chuyenDoiTienTe.js"></script>
+</body>
+</html>
